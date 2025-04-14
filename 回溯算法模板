@@ -1,0 +1,16 @@
+java
+class Solution {
+  public static void main(String[] args) {
+    Solution so = new Solution();
+  }
+  public List<List<Integer>> findSubsequences(int[] nums) {
+    List<List<Integer>> ans = new ArrayList<>();
+    Stack<Integer> path = new Stack<>();
+    backTrace(nums, 0, ans, path);
+    return ans;
+  }
+
+  private void backTrace(int[] nums, int startIndex, List<List<Integer>> ans, Stack<Integer> path){
+
+  }
+}
